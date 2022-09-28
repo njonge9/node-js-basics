@@ -14,3 +14,14 @@ fs.appendFile('mynewfile.txt', 'This is my text.', function (err) {
     if (err) throw err;
     console.log('Updated!')
 })
+
+
+//fs.writeFile()
+//Replaces the specified file and content
+
+var fs = require('fs');
+
+fs.appendFile('mynewfile3.txt', 'This is my text', function (err) {
+    if (err) throw err;
+    console.log('Replaced!')
+})
